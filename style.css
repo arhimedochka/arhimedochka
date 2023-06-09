@@ -1,0 +1,63 @@
+body {
+    background: url('img/фон22222\ 1.png') no-repeat center;
+    background-size: cover;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-image {
+    width: 210px;
+    height: 300px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    transition: all 0.3s ease-in;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    font-size: 42px;
+    text-decoration: none;
+    color: #000;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.main-text {
+    margin-bottom: 50px;
+}
+.item:hover{
+    transform: scale(1.3);
+}
